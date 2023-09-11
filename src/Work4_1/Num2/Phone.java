@@ -1,3 +1,5 @@
+package Work4_1.Num2;
+
 public class Phone {
     public int number;
     public String model;

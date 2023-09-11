@@ -1,4 +1,8 @@
-public class Square extends Rectangle{
+package Work4_1.Num8;
+
+import Work4_1.Num8.Rectangle;
+
+public class Square extends Rectangle {
     public Square(){}
     public Square(double side){}
     public Square(double side, String color, boolean filled){}

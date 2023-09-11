@@ -1,8 +1,12 @@
-public class Flight extends Vehicle{
+package Work4_1.Num10;
+
+import Work4_1.Num10.Vehicle;
+
+public class Boat extends Vehicle {
     {
-        speed = 200;
-        maxCapacity = 200;
-        pricePerPass = 10000;
+        speed = 80;
+        maxCapacity = 100;
+        pricePerPass = 5000;
     }
 
     @Override

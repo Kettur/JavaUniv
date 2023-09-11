@@ -1,3 +1,5 @@
+package Work4_1.Num10;
+
 public abstract class Vehicle {
     protected double speed;
     protected double pricePerPass;

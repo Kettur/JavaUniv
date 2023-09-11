@@ -1,3 +1,7 @@
+package Work4_1.Num8;
+
+import Work4_1.Num8.Shape;
+
 public class Rectangle extends Shape {
     protected double width;
     protected double length;

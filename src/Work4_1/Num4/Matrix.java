@@ -1,3 +1,5 @@
+package Work4_1.Num4;
+
 import java.util.Scanner;
 
 public class Matrix {

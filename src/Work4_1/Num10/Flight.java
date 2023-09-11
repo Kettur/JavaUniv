@@ -1,8 +1,12 @@
-public class Car extends Vehicle {
+package Work4_1.Num10;
+
+import Work4_1.Num10.Vehicle;
+
+public class Flight extends Vehicle {
     {
-        speed = 60;
-        maxCapacity = 4;
-        pricePerPass = 100;
+        speed = 200;
+        maxCapacity = 200;
+        pricePerPass = 10000;
     }
 
     @Override
@@ -17,5 +21,4 @@ public class Car extends Vehicle {
     public double countPrice(double pas) {
         return pricePerPass * pas;
     }
-
 }

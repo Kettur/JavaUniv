@@ -1,8 +1,12 @@
-public class Boat extends Vehicle {
+package Work4_1.Num10;
+
+import Work4_1.Num10.Vehicle;
+
+public class Car extends Vehicle {
     {
-        speed = 80;
-        maxCapacity = 100;
-        pricePerPass = 5000;
+        speed = 60;
+        maxCapacity = 4;
+        pricePerPass = 100;
     }
 
     @Override
@@ -17,4 +21,5 @@ public class Boat extends Vehicle {
     public double countPrice(double pas) {
         return pricePerPass * pas;
     }
+
 }

@@ -1,3 +1,7 @@
+package Work4_1.Num8;
+
+import Work4_1.Num8.Shape;
+
 public class Circle extends Shape {
     protected double radius;
     public Circle(int radius){}
@@ -21,7 +25,7 @@ public class Circle extends Shape {
 
     @Override
     public String toString() {
-        return "Circle{" +
+        return "Work4_1.Num8.Circle{" +
                 "radius=" + radius +
                 '}';
     }
