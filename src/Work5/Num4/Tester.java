@@ -31,7 +31,7 @@ public class Tester {
         });
     }
     public class FLabel extends JLabel{
-        ImageIcon icon1 = new ImageIcon("C:/Study/JavaCodes/JavaUniv/src/Work5/Work7.Num4/fire1.png");
+        ImageIcon icon1 = new ImageIcon("C:/Study/JavaCodes/JavaUniv/src/Work5/Num4/fire0.png");
         int c = 2;
 
 
@@ -43,7 +43,7 @@ public class Tester {
             Timer timer = new Timer(300, new ActionListener(){
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    setIcon(new ImageIcon("C:/Study/JavaCodes/JavaUniv/src/Work5/Work7.Num4/fire" + (c%15) + ".png"));
+                    setIcon(new ImageIcon("C:/Study/JavaCodes/JavaUniv/src/Work5/Num4/fire" + (c%15) + ".png"));
                     c++;
                 }
             });

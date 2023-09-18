@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Tester {
     public static void main(String[] args) {
         //System.out.println(maxLoop(0));
-        //triLoop(10, 0, 1);
+        triLoop(10, 0, 1);
         numLoop(4);
     }
     public static int maxLoop(int a){

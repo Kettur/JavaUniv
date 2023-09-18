@@ -6,7 +6,7 @@ import java.awt.*;
 
 public class Tester {
     public static void main(String[] args) {
-        ImageIcon image = new ImageIcon("C:/Study/JavaCodes/JavaUniv/src/Work5/Work7.Num3/1.png");
+        ImageIcon image = new ImageIcon(args[0]);
         JLabel label = new JLabel();
         label.setText("Я сделяль");
         label.setHorizontalTextPosition(JLabel.CENTER);
